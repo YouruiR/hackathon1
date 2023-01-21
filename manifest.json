@@ -15,5 +15,10 @@
             "32": "cart.png"
         },
         "default_popup" : "popup.html"
+      },
+      "icons": {
+        "16": "cart.png",
+        "48": "cart.png",
+        "32": "cart.png"
       }
 }
