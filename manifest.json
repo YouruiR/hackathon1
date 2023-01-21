@@ -2,20 +2,18 @@
     "manifest_version": 3,
     "name": "GlobalCart2",
     "version": "1.0",
-    "permissions": ["storage", "tabs"],
+    "permissions": ["storage", "tabs", "activeTab"],
     "background": {
         "service_worker": "background.js",
         "type": "module"
     },
     "action": {
         "default_title" : "Global Cart",
-        "default_icon" : "cart.png",
+        "default_icon" : {
+            "16": "cart.png",
+            "24": "cart.png",
+            "32": "cart.png"
+        },
         "default_popup" : "popup.html"
-      },
-    "icons": { 
-        "16" : "cart.png",
-        "32": "cart.png",
-        "48": "cart.png",
-        "128": "cart.png"
-       }
+      }
 }
