@@ -2,5 +2,11 @@
     "manifest_version": 3,
     "name": "GlobalCart2",
     "version": "1.0",
+    "permissions": ["storage", "tabs", "runtime"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": ["content.js"],
+    "default_popup": "popup.html"
     
 }
